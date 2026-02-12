@@ -30,6 +30,16 @@ console.log(phoneNumber)
 
 //this is a object
 
+const transactionDetail={
+    PersonName : "Praveen",
+    transactionId : "abe46372hsddj473",
+    paymentAmount : 10000,
+    paymentMode : "Online",
+    upiId : "abc123@paytm",
+    mobileNo : 6280008201,
+};
+
+
 const transaction = {
   transactionId: "XY352SGDSH",
   date: "2026-02-11",
@@ -40,15 +50,24 @@ const transaction = {
   status: "Completed"
 };
 
- const transactionDetail={
-    PersonName : "Praveen",
-    transactionId : "abe46372hsddj473",
-    paymentAmount : 10000,
-    paymentMode : "Online",
-    upiId : "abc123@paytm",
-    mobileNo : 6280008201,
-};
-
-console.log(transaction);
 console.log(transactionDetail)
+console.log(transaction);
+
+const btn5 = document.getElementById("btn5")
+
+
+
+// btn5.addEventListener("click", function () {
+   
+//   document.getElementById("blank").textContent=
+//     "Transaction ID: " + transaction.transactionId
+// });
+
+   
+  document.getElementById("emptyFirstName").textContent=
+     transactionDetail.PersonName 
+document.getElementById("tid").textContent=transactionDetail.transactionId
+document.getElementById("TAmount").textContent=transactionDetail.paymentAmount
+
+
 

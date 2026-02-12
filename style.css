@@ -1,3 +1,4 @@
+
 body{
     background-color: rgba(138, 43, 226,0.2);
 }
@@ -32,6 +33,12 @@ h1{
     width: 80px;
     background-color: rgba(138, 43, 226,0.2);
 }
+#btn5{
+    height: 40px;
+    width: 80px;
+    background-color: rgba(138, 43, 226,0.2);
+}
+
 #result{
     display: flex;
     justify-content: center;
@@ -53,6 +60,24 @@ h1{
 #blank{
     width: 100%;
     height: 400px;
+    text-align: center;
+    justify-content: center;
+    gap: 3px;
+    background-color: rgba(138, 43, 226,0.2)
+
+}
+.abcd{
+    display: flex;
+    justify-content: center;
+
+}
+#efgh{
+    display: flex;
+    justify-content: center;
+}
+#ijkl{
+    display: flex;
+    justify-content: center;
 }
 footer{
     text-align: center;
